@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
 	<meta name="Viewport" content = "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 
     <title>Welcome to Shihui's Blog!</title>
     
@@ -14,7 +15,7 @@
 
     <header>
       <h1>Shihui Zhou</h1>
-    </header>
+    
 
     <nav>
       <ul>
@@ -24,14 +25,14 @@
       </ul>
 
       </nav>
-
+	</header>
     <!-- Here is our page's main content -->
-    <main>
-
+    <main >
+		
       <!-- It contains an article -->
-      <article>
+      <section id= "blog" >
         <h2>What should I pay attention to when swimming?</h2>
-
+		<article class= "blog-post">
 		<h6>Author: Shihui Zhou  Published date:Oct 10st, 2020</h6>
 	<table>
 	  <tr>
@@ -52,7 +53,7 @@
 	   <tr>
 		<td>backstroke</td>
 		<td>one hour</td>
-		<td>420 kilocalorie<</td>
+		<td>420 kilocalorie</td>
 	  </tr>
 		
 		</table>
@@ -72,10 +73,11 @@
 			<li>swimming caps</li>
 		</ol>
 		</article>
-
+		</section>
       <!-- the aside content can also be nested within the main content -->
-      <article>
-        <h2>What should I pay attention to when I go skiing</h2>
+    <section id = "blog2">
+		<h2>What should I pay attention to when I go skiing</h2>
+		<article class= "blog-post">
 		<h6>Author: Shihui Zhou  Published date:Oct 10st, 2020</h6>
 		<p><img src="sking.jpg" alt="sking"></p>
 
@@ -85,20 +87,20 @@
 		<h3> Protection of the skin</h3>
 		<p>Winter cold dry, add ski formed when the relative speed a lot of cold air stimulation to the skin and snow surface strong ultraviolet burns to the skin, is the main cause of skin damage, so can choose some oily, prevent moisture loss function is to protect skin to taste, then better with effect of uv protection, sunscreen on the skin with water resistance.If you feel that the cold wind stimulates your face too much, you can choose a headgear that only shows your eyes and add a full closure ski goggles to completely cover your face, which can effectively prevent the cold wind from damaging your face.</p>
           
-        
-      </article>
+	</article>
+	</section>
 
 	
-
+	  <form>
+		<label>Sign up for our newsletter:
+		 <input type="text">
+		</label>
+		<button>Subscribe</button>
+	   </form>
     </main>
-	<section>
-		<form>
-		 <label>Sign up for our newsletter:
-		  <input type="text">
-		 </label>
-		 <button>Subscribe</button>
-		</form>
-	</section>
+	
+	
+	
 
     <!-- And here is our main footer that is used across all the pages of our website -->
 
