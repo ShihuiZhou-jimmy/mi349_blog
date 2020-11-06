@@ -131,3 +131,6 @@ article:nth-of-type(3){
     flex: 1;
 }
 
+@media(max-width:400px){
+
+}
