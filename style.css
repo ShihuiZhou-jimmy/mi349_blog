@@ -139,4 +139,8 @@ article:nth-of-type(3){
     #header{
         background-color: yellow;
     }
+
+    section{
+        background-color: white;
+    }
 }
